@@ -1,0 +1,41 @@
+.scroll-animation {
+    opacity: 0;
+    transition: all 0.8s ease-out;
+  }
+  
+  .scroll-animation.animate {
+    opacity: 1;
+  }
+  
+  .scroll-animation.fade-up {
+    transform: translateY(40px);
+  }
+  
+  .scroll-animation.fade-up.animate {
+    transform: translateY(0);
+  }
+  
+  .scroll-animation.fade-right {
+    transform: translateX(-40px);
+  }
+  
+  .scroll-animation.fade-right.animate {
+    transform: translateX(0);
+  }
+  
+  .scroll-animation.fade-left {
+    transform: translateX(40px);
+  }
+  
+  .scroll-animation.fade-left.animate {
+    transform: translateX(0);
+  }
+  
+  .scroll-animation.zoom-in {
+    transform: scale(0.9);
+  }
+  
+  .scroll-animation.zoom-in.animate {
+    transform: scale(1);
+  }
+  

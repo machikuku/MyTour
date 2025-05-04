@@ -1,0 +1,194 @@
+:root {
+  /* Dark theme colors */
+  --primary: #4c7a9b;
+  --primary-light: #5d8bac;
+  --primary-dark: #3a5a78;
+  --accent: #f39c12;
+  --bg-primary: #1a202c;
+  --bg-secondary: #2d3748;
+  --bg-tertiary: #283141;
+  --text-primary: #f7fafc;
+  --text-secondary: #e2e8f0;
+  --text-tertiary: #a0aec0;
+  --border-color: #4a5568;
+  --card-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  --hover-shadow: 0 10px 20px rgba(0, 0, 0, 0.4);
+}
+
+.page-transition-enter {
+  opacity: 0;
+  transform: translateY(20px);
+}
+
+.page-transition-enter-active {
+  opacity: 1;
+  transform: translateY(0);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+.page-transition-exit {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.page-transition-exit-active {
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1000ms, transform 1000ms;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  color: var(--text-primary);
+  background-color: var(--bg-primary);
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.main-content {
+  flex: 1;
+  width: 100%;
+  position: relative;
+  overflow-x: hidden;
+  padding-top: 0; /* Remove top padding to allow hero to take full height */
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-light);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--text-primary);
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+}
+
+h1 {
+  font-size: 2.5rem;
+}
+
+h2 {
+  font-size: 2rem;
+}
+
+h3 {
+  font-size: 1.75rem;
+}
+
+p {
+  margin-bottom: 1rem;
+  color: var(--text-secondary);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+button {
+  cursor: pointer;
+  background-color: var(--primary);
+  color: var(--bg-primary);
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: var(--primary-light);
+}
+
+/* Page transition animations */
+.page {
+  position: relative;
+  width: 100%;
+}
+
+.page-enter {
+  opacity: 0;
+  transform: translateX(100%);
+}
+
+.page-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.page-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.page-exit-active {
+  opacity: 0;
+  transform: translateX(-100%);
+  transition: opacity 500ms, transform 500ms;
+}
+
+/* For reverse direction (going to previous page) */
+.page-reverse-enter {
+  opacity: 0;
+  transform: translateX(-100%);
+}
+
+.page-reverse-enter-active {
+  opacity: 1;
+  transform: translateX(0);
+  transition: opacity 500ms, transform 500ms;
+}
+
+.page-reverse-exit {
+  opacity: 1;
+  transform: translateX(0);
+}
+
+.page-reverse-exit-active {
+  opacity: 0;
+  transform: translateX(100%);
+  transition: opacity 500ms, transform 500ms;
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.75rem;
+  }
+
+  h3 {
+    font-size: 1.5rem;
+  }
+}

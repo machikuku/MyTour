@@ -1,0 +1,48 @@
+/* Page transition styles */
+.page-transition-enter {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  
+  .page-transition-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1200ms, transform 1200ms;
+  }
+  
+  .page-transition-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .page-transition-exit-active {
+    opacity: 0;
+    transform: translateY(-20px);
+    transition: opacity 1200ms, transform 1200ms;
+  }
+  
+  /* Reverse transitions */
+  .page-transition-reverse-enter {
+    opacity: 0;
+    transform: translateY(-20px);
+  }
+  
+  .page-transition-reverse-enter-active {
+    opacity: 1;
+    transform: translateY(0);
+    transition: opacity 1200ms, transform 1200ms;
+  }
+  
+  .page-transition-reverse-exit {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .page-transition-reverse-exit-active {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1200ms, transform 1200ms;
+  }
+  
+  /* Add to index.js to import this file */
+  
