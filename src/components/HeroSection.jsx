@@ -114,7 +114,7 @@ const HeroSection = () => {
       {/* Background Slideshow */}
       <div className="hero-slideshow">
         {destinations.map((destination, index) => (
-          <div
+          <div fetchpriority={high}
             key={destination.id}
             className={`hero-slide ${index === activeIndex ? "active" : ""}`}
             style={{ backgroundImage: `url(${destination.image})` }}
