@@ -8,7 +8,7 @@ export const blogData = [
     coverImage: "/images/intro1.jpg?height=300&width=500",
     content:
       "Our journey began on the first day with our arrival at NAIA Terminal 3, followed by an exciting city tour of Metro Manila, where we explored its vibrant streets and historic landmarks.",
-    locations: ["NAIA Terminal 3", "Luneta Park", "Intramuros", "Fort Santiago", "Mall of Asia"],
+    locations: ["NAIA Terminal 3", "Luneta Park", "Intramuros", "Fort Santiago"],
     locationDetails: [
       {
         name: "NAIA Terminal 3",
@@ -16,17 +16,17 @@ export const blogData = [
           "Upon arrival at NAIA Terminal 3, we eagerly awaited the arrival of the other students. We spent some time waiting for our tour guide and the bus, which would take us to our accommodation in Quezon City, where we would stay for the duration of the tour. During this time, we also had an orientation to prepare for the exciting days ahead.",
         images: [
           {
-            url: "/images/image1.jpg?height=600&width=800",
+            url: "/images/d11.jpg?height=600&width=800",
             description:
               "The first batch of 4th-year IT students arrived at NAIA Terminal 3, waiting for the rest to arrive.",
           },
           {
-            url: "/images/placeholder.svg?key=p9uic",
-            description: "The busy terminal area where we gathered our luggage and met our tour guide.",
+            url: "/images/d12.jpg?key=p9uic",
+            description: "The tour bus that would be our transportation throughout the educational tour. ",
           },
           {
-            url: "/images/placeholder.svg?key=q3gft",
-            description: "The tour bus that would be our transportation throughout the educational tour.",
+            url: "/images/d13.jpg?key=q3gft",
+            description: "On our way to Quezon City.",
           },
         ],
       },
@@ -36,17 +36,17 @@ export const blogData = [
           "In the afternoon, our city tour brought us to Luneta Park, a historic site and the location of the Rizal Monument, where Dr. José Rizal was executed. The park's wide open spaces and lush greenery made it the perfect spot for a group photo. Our guide shared captivating stories about this historic landmark, as well as nearby sites like the Quirino Grandstand, Manila Ocean Park, and Kilometer Zero, each telling a piece of the Philippines' rich history.",
         images: [
           {
-            url: "/images/image2.jpg?height=600&width=800",
+            url: "/images/d14.jpg?height=600&width=800",
             description:
               "Our group in front of the Rizal Monument at Luneta Park, where we explored a key piece of Philippine history.",
           },
           {
-            url: "/images/placeholder.svg?key=vavrp",
-            description: "The beautiful gardens and pathways of Luneta Park, a historic national park in Manila.",
+            url: "/images/d15.jpg?key=vavrp",
+            description: "With our idol, Sir Jason Catadman.",
           },
           {
-            url: "/images/placeholder.svg?key=jwxhb",
-            description: "View of the Quirino Grandstand from Luneta Park, an important venue for national events.",
+            url: "/images/d16.png?key=jwxhb",
+            description: "Tour guide Kuya Enan sharing stories about Rizal Park with the group.",
           },
         ],
       },
@@ -56,17 +56,13 @@ export const blogData = [
           "Intramuros, known as the 'Walled City', is one of Manila's most iconic historical sites. Built during the Spanish colonial period, this fortress city features stone walls, cobblestone streets, and well-preserved Spanish-era buildings. We explored the area on foot, learning about its rich history from our knowledgeable guide. The architecture and atmosphere transported us back in time, giving us a glimpse of what life was like during the Spanish occupation.",
         images: [
           {
-            url: "/images/image3.jpg?height=600&width=800",
-            description: "Standing at the entrance of Fort Santiago, a historic site within Intramuros, Manila.",
+            url: "/images/d17.jpg?height=600&width=800",
+            description: "Admiring the grandeur of the Manila Cathedral, a beautiful blend of history and architecture. Manila.",
           },
           {
-            url: "/images/image4.jpg?height=600&width=800",
+            url: "/images/d18.jpg?height=600&width=800",
             description:
-              "Admiring the grandeur of the Manila Cathedral, a beautiful blend of history and architecture.",
-          },
-          {
-            url: "/images/placeholder.svg?key=fpodd",
-            description: "The historic walls of Intramuros that have stood for centuries, protecting the old city.",
+              "Inside the Manila Cathedral.",
           },
         ],
       },
@@ -76,36 +72,17 @@ export const blogData = [
           "Fort Santiago is a citadel built by Spanish conquistador Miguel López de Legazpi, serving as the defense fortress of Intramuros. This historical site is particularly significant as it was where national hero Dr. José Rizal was imprisoned before his execution. We walked through the same grounds where Rizal spent his final days, viewing the preserved memorabilia and reading his famous works. The fort's stone walls, moats, and gardens provided a solemn backdrop as we learned about this pivotal period in Philippine history.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=fort santiago gate manila",
+            url: "/images/d20.jpg?height=600&width=800&query=fort santiago gate manila",
             description: "The imposing main gate of Fort Santiago with its intricate stone carvings.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=rizal shrine fort santiago",
-            description: "The Rizal Shrine within Fort Santiago, commemorating the national hero's final days.",
+            url: "/images/d21.jpg?height=600&width=800&query=rizal shrine fort santiago",
+            description: "The elegant facade of the Rizal Memorial Building.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=fort santiago gardens",
+            url: "/images/d112.jpg?height=600&width=800&query=fort santiago gardens",
             description:
-              "The beautifully maintained gardens within Fort Santiago, offering a peaceful atmosphere amidst historical surroundings.",
-          },
-        ],
-      },
-      {
-        name: "Mall of Asia",
-        content:
-          "We ended our first day with a visit to SM Mall of Asia, one of the largest shopping malls in the Philippines and Asia. This massive complex offered not just shopping opportunities but also a chance to observe modern Filipino urban culture. The mall features a wide range of stores, restaurants, entertainment options, and even an IMAX theater. We particularly enjoyed the bayside area, which provided stunning views of Manila Bay and its famous sunset. This visit offered a stark contrast to the historical sites we had explored earlier in the day, showcasing the blend of tradition and modernity that characterizes contemporary Manila.",
-        images: [
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=mall of asia manila exterior",
-            description: "The impressive exterior of SM Mall of Asia, one of the largest shopping malls in Asia.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=manila bay sunset mall of asia",
-            description: "The breathtaking sunset view of Manila Bay from the Mall of Asia bayside area.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=mall of asia globe",
-            description: "The iconic globe structure outside Mall of Asia, a popular landmark for visitors.",
+              "Life-like statues inside Fort Santiago depicting soldiers during wartime, showcasing the struggles and resilience of history.",
           },
         ],
       },
@@ -132,18 +109,13 @@ export const blogData = [
           "Our second day began with a visit to the Subic Bay Exhibition & Convention Center, where we attended a comprehensive presentation about the history and development of Subic Bay. Once a major US Naval Base, Subic Bay has transformed into a thriving Freeport Zone and commercial hub. The presentation covered the economic impact of the base conversion, the establishment of the Subic Bay Metropolitan Authority (SBMA), and the various industries that now operate in the area. We learned about how technology has been integrated into the management and operations of the Freeport Zone, making it one of the most modern and efficient in Southeast Asia.",
         images: [
           {
-            url: "/images/D21.jpg?height=600&width=800",
+            url: "/images/d25.jpg?height=600&width=800",
             description: "Group photo taken at the Subic Bay Port Museum",
           },
           {
             url: "/images/D22.jpg?height=600&width=800",
             description:
               "Portrait of significant figures and milestones at the Subic Bay Port Museum, capturing the history and development of Subic Bay.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=subic bay convention center",
-            description:
-              "The modern facilities of the Subic Bay Exhibition & Convention Center where we attended informative presentations.",
           },
         ],
       },
@@ -153,18 +125,13 @@ export const blogData = [
           "At the Subic Seaport Department, we were given an exclusive tour of their operations center and port facilities. The department manages all maritime activities in Subic Bay, including vessel traffic, cargo handling, and customs procedures. We were particularly impressed by their Vessel Traffic Management System, which uses advanced radar and communication technologies to monitor and control ship movements within the bay. The staff explained how they coordinate with international shipping companies and implement security protocols to ensure safe and efficient port operations. We also learned about the environmental protection measures in place to preserve the bay's natural ecosystem while supporting commercial activities.",
         images: [
           {
-            url: "/images/D23.jpg?height=600&width=800",
+            url: "/images/d26.jpg?height=600&width=800",
             description:
-              "View from the Command Center at the SBMA Seaport Department, offering a panoramic look at the bustling Subic Bay port and the surrounding landscape.",
+              "View from the command center of the vessel, showcasing the towering communication structure against the clear blue sky.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=subic bay port operations",
-            description: "The busy port operations at Subic Bay, showing cargo ships and container handling equipment.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=subic bay vessel traffic management",
-            description:
-              "The sophisticated monitoring equipment used in the Vessel Traffic Management System at Subic Bay.",
+            url: "/images/d27.jpg?height=600&width=800&query=subic bay port operations",
+            description: "Display inside the vessel command center, showing real-time maps and live CCTV feeds for monitoring maritime activities and ensuring safe operations.",
           },
         ],
       },
@@ -177,16 +144,6 @@ export const blogData = [
             url: "/images/D24.jpg?height=600&width=800",
             description:
               "Group photo inside the Command Center of the SBMA Law Enforcement Department's Communication Branch at Subic Bay, where we learned about the critical role of communication in maintaining safety and security within the port.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=subic bay security patrol",
-            description:
-              "Security personnel from the Subic Bay Law Enforcement Office conducting routine patrols in the Freeport Zone.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=subic bay emergency response team",
-            description:
-              "The emergency response team at Subic Bay, ready to handle any situation that might arise within the Freeport Zone.",
           },
         ],
       },
@@ -217,9 +174,9 @@ export const blogData = [
             description: "The famous Saltwater Crocodile Lolong at the National Museum of Natural History.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=tree of life national museum philippines",
+            url: "/images/d33.jpg?height=600&width=800&query=tree of life national museum philippines",
             description:
-              "The impressive Tree of Life structure at the center of the National Museum of Natural History, extending from the ground floor to the dome.",
+              "A majestic whale skeleton displayed inside the National Museum of Natural History, showcasing the grandeur of marine life.",
           },
         ],
       },
@@ -229,16 +186,16 @@ export const blogData = [
           "After lunch, we visited the Quezon Memorial Circle and the Manuel L. Quezon Museum dedicated to the second President of the Philippines. The museum is located within the Quezon Memorial Shrine, a monument featuring three vertical pylons representing the three main island groups of the Philippines: Luzon, Visayas, and Mindanao. Inside the museum, we explored exhibits chronicling Quezon's life, his presidency, and his significant contributions to Philippine independence. The museum uses historical photographs, documents, personal belongings, and multimedia presentations to tell the story of this important figure in Philippine history. We were particularly interested in learning about Quezon's leadership during a critical period in the nation's development and his role in establishing many of the country's democratic institutions.",
         images: [
           {
-            url: "/images/d33.jpg?height=600&width=800",
+            url: "/images/d34.jpg?height=600&width=800",
             description: "Final resting place of Manuel L. Quezon, the second President of the Philippines.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=quezon memorial shrine",
+            url: "/images/d35.jpg?height=600&width=800&query=quezon memorial shrine",
             description:
               "The towering Quezon Memorial Shrine with its three pylons representing Luzon, Visayas, and Mindanao.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=manuel quezon memorabilia",
+            url: "/images/d36.jpg?height=600&width=800&query=manuel quezon memorabilia",
             description:
               "Display of personal items and memorabilia belonging to President Manuel L. Quezon at the museum.",
           },
@@ -250,16 +207,11 @@ export const blogData = [
           "Our final stop of the day was the Museo ng Pampangulong Sasakyan (Presidential Car Museum), also located within the Quezon Memorial Circle. This unique museum features a collection of vehicles used by Philippine presidents throughout history, from Emilio Aguinaldo to more recent administrations. Each vehicle comes with information about the president who used it and the historical context of their time in office. We were fascinated by the evolution of presidential transportation over the decades, from vintage cars to more modern vehicles with security features. The museum provides an interesting perspective on Philippine history through the lens of presidential mobility and the changing times. The preservation of these historical vehicles demonstrates the importance of maintaining tangible connections to the past for educational purposes.",
         images: [
           {
-            url: "/images/d34.jpg?height=600&width=800",
+            url: "/images/d37.jpg?height=600&width=800",
             description: "Posing next to the first president's car at the Museo ng Pampangulong Sasakyan.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=presidential cars philippines museum",
-            description:
-              "Collection of presidential vehicles from different eras at the Museo ng Pampangulong Sasakyan.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=vintage presidential limousine philippines",
+            url: "/images/d38.jpg?height=600&width=800&query=vintage presidential limousine philippines",
             description:
               "A beautifully preserved vintage limousine that served one of the early presidents of the Philippines.",
           },
@@ -280,62 +232,53 @@ export const blogData = [
       {
         name: "Bangko Sentral ng Pilipinas",
         content:
-          "Our fourth day began with a visit to the Bangko Sentral ng Pilipinas (BSP), the central bank of the Philippines. We were given a comprehensive tour of the facilities, including the Money Museum which showcases the evolution of Philippine currency from pre-colonial times to the present. The BSP officials explained the bank's role in maintaining monetary stability, regulating the country's financial system, and issuing currency. We learned about the advanced security features incorporated into Philippine banknotes and coins to prevent counterfeiting. The highlight of our visit was seeing the actual printing process of Philippine peso bills, where we observed the sophisticated technology and meticulous quality control measures in place. We also learned about the BSP's initiatives in promoting financial literacy and inclusion across the country.",
+          "Our fourth day began with a visit to the Bangko Sentral ng Pilipinas (BSP) in Quezon, where we saw the fascinating process of gold being melted and molded, as well as the production of cash and coins. We were given a comprehensive tour of the facilities, including the Money Museum, which showcases the evolution of Philippine currency. The BSP officials explained the bank's role in maintaining monetary stability, regulating the country's financial system, and issuing currency. We learned about the advanced security features incorporated into Philippine banknotes and coins to prevent counterfeiting. Although we were not allowed to take pictures inside, the highlight of our visit was witnessing the actual processes of printing Philippine peso bills, coin making, and the sophisticated technology and meticulous quality control measures involved. Additionally, we gained insight into the BSP's initiatives in promoting financial literacy and inclusion across the country.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=bangko sentral ng pilipinas building",
-            description: "The impressive headquarters of the Bangko Sentral ng Pilipinas in Manila.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=philippine money museum",
-            description: "The Money Museum at BSP, showcasing the rich history and evolution of Philippine currency.",
-          },
-          {
-            url: "/images/placeholder.svg?height=600&width=800&query=philippine peso printing process",
-            description:
-              "The sophisticated machinery used in the printing of Philippine peso bills, demonstrating the advanced technology behind currency production.",
+            url: "/images/d41.jpg?height=600&width=800&query=bangko sentral ng pilipinas building",
+            description: "The impressive headquarters of the Bangko Sentral ng Pilipinas in Quezon.",
           },
         ],
       },
       {
         name: "Hytec Power Inc.",
         content:
-          "In the afternoon, we visited Hytec Power Inc., a leading company in renewable energy solutions in the Philippines. The company specializes in solar, wind, and hydroelectric power systems, contributing to the country's shift towards sustainable energy sources. During our tour, we were shown their research and development facilities where engineers work on improving energy efficiency and developing new technologies adapted to the Philippine context. The company representatives explained their various projects across the country, from large-scale solar farms to small community-based renewable energy systems. We had the opportunity to see working models of their solar panel systems and learn about the technical aspects of renewable energy generation. This visit provided valuable insights into how technology is being leveraged to address environmental challenges while meeting the growing energy demands of the country.",
+          "During our visit to Hytec Power Inc., a technical training center specializing in heavy equipment operations, welding, and robotics, I had the chance to try out their heavy equipment simulator. The experience was both exciting and realistic, giving me a glimpse of what the training feels like. We were also given a tour of their state-of-the-art facilities, including robotics labs and impressive student projects, which left us all inspired to explore more about technical education.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=solar panel installation philippines",
+            url: "/images/d42.jpg?height=600&width=800&query=solar panel installation philippines",
             description:
-              "Solar panel installation project by Hytec Power Inc., showcasing their renewable energy solutions.",
+              "Various drive trainers, including floppy disk, Blu-ray, and DVD drives, used for hands-on learning in computer technology education.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=renewable energy research lab",
+            url: "/images/d43.jpg?height=600&width=800&query=renewable energy research lab",
             description:
-              "The research and development laboratory at Hytec Power Inc., where engineers work on innovative energy solutions.",
+              "This is me yrying out the heavy equipment simulator for a hands-on experience in operating machinery.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=solar energy demonstration model",
+            url: "/images/d44.jpg?height=600&width=800&query=solar energy demonstration model",
             description:
-              "A demonstration model showing how solar energy is captured, stored, and distributed to power homes and businesses.",
+              "Group photo just outside the building of Hytec .",
           },
         ],
       },
       {
         name: "SM North EDSA",
         content:
-          "We concluded our day with a visit to SM North EDSA, one of the largest shopping malls in the Philippines and a pioneer in implementing smart retail technologies. The mall management gave us a behind-the-scenes tour of their operations center, where they monitor everything from foot traffic and energy consumption to security and customer service. We learned about their integrated building management system that optimizes energy use throughout the massive complex. The mall has also implemented various digital innovations to enhance the shopping experience, including interactive directories, mobile apps for navigation and promotions, and cashless payment systems. We were particularly interested in their data analytics approach, which helps them understand customer behavior and preferences to better serve their diverse clientele. This visit highlighted how digital transformation is reshaping traditional retail spaces in the Philippines.",
+          "We concluded our day with a fun visit to SM North EDSA, where we played laser tag with our professor, Sir Ceed. It was a thrilling experience that allowed us to unwind and bond as a group. ",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=sm north edsa mall philippines",
-            description: "The expansive facade of SM North EDSA, one of the largest shopping malls in the Philippines.",
+            url: "/images/d45.jpg?height=600&width=800&query=sm north edsa mall philippines",
+            description: "On our way to play laser tag, all geared up and ready for some fun and friendly competition with the squad!",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=shopping mall operations center",
+            url: "/images/d46.jpg?height=600&width=800&query=shopping mall operations center",
             description:
-              "The sophisticated operations center that monitors and manages all aspects of the mall's functions.",
+              "Let the Game Begin.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=digital payment systems retail philippines",
-            description: "Modern cashless payment systems being demonstrated at one of the retail outlets in the mall.",
+            url: "/images/d47.jpg?height=600&width=800&query=digital payment systems retail philippines",
+            description: "Group picture after a fun game.",
           },
         ],
       },
@@ -358,40 +301,40 @@ export const blogData = [
           "Our morning was spent at the Light Rail Transit Line 2 (LRT-2) depot and control center, where we gained exclusive access to the behind-the-scenes operations of one of Metro Manila's vital mass transit systems. The facility tour began with a comprehensive presentation on the history and development of the LRT system and its role in addressing the city's transportation challenges. We were then taken to the maintenance depot where we observed technicians performing routine checks and repairs on the train cars. The highlight of our visit was the central control room, where operators monitor the entire line in real-time using advanced tracking systems and communication networks. We learned about the sophisticated signaling technology that ensures safe train operations and the computerized systems that manage train schedules and passenger flow. The engineers explained how they handle various scenarios, from routine delays to emergency situations, emphasizing the importance of both technology and human expertise in maintaining efficient operations.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=lrt2 train depot manila",
+            url: "/images/d51.jpg?height=600&width=800&query=lrt2 train depot manila",
             description: "The LRT-2 maintenance depot where train cars undergo regular inspection and repairs.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=lrt control center philippines",
+            url: "/images/d52.jpg?height=600&width=800&query=lrt control center philippines",
             description:
               "The sophisticated control center where operators monitor and manage the entire LRT-2 system in real-time.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=lrt2 train maintenance philippines",
+            url: "/images/d53.jpg?height=600&width=800&query=lrt2 train maintenance philippines",
             description:
-              "Technicians performing maintenance work on an LRT-2 train car, ensuring safe and reliable operations.",
+              "Observing the control room from outside.",
           },
         ],
       },
       {
         name: "MMDA",
         content:
-          "In the afternoon, we visited the Metropolitan Manila Development Authority (MMDA) headquarters to learn about their traffic management and disaster response systems. Our tour began at the Metrobase, MMDA's command center equipped with hundreds of CCTV cameras monitoring major roads and intersections across Metro Manila. Officials demonstrated how they use this network to identify traffic congestion, accidents, and other incidents that require immediate attention. We were particularly impressed by their integrated traffic signal system that allows them to adjust traffic light timing based on real-time conditions. The MMDA representatives also explained their use of data analytics to identify traffic patterns and plan interventions accordingly. Another highlight was learning about their mobile applications that provide the public with traffic updates and alternative route suggestions. We also visited their disaster risk reduction and management office, where they coordinate emergency responses during typhoons, floods, earthquakes, and other calamities. This visit gave us valuable insights into how technology is being leveraged to manage urban challenges in one of Southeast Asia's most densely populated metropolitan areas.",
+          "In the afternoon, we visited the Metropolitan Manila Development Authority (MMDA) headquarters to learn about their traffic management and disaster response systems. Our tour began at the Metrobase, MMDA's command center equipped with hundreds of CCTV cameras monitoring major roads and intersections across Metro Manila. Officials demonstrated how they use this network to identify traffic congestion, accidents, and other incidents that require immediate attention. We were particularly impressed by their integrated traffic signal system that allows them to adjust traffic light timing based on real-time conditions. The MMDA representatives also explained their use of data analytics to identify traffic patterns and plan interventions accordingly. Another highlight was learning about their mobile applications that provide the public with traffic updates and alternative route suggestions.This visit gave us valuable insights into how technology is being leveraged to manage urban challenges in one of Southeast Asia's most densely populated metropolitan areas.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=mmda metrobase command center",
+            url: "/images/d54.jpg?height=600&width=800&query=mmda metrobase command center",
             description:
               "The MMDA Metrobase command center with its wall of monitors displaying live feeds from traffic cameras across Metro Manila.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=traffic management system manila",
+            url: "/images/d55.jpg?height=600&width=800&query=traffic management system manila",
             description:
-              "MMDA personnel demonstrating their integrated traffic management system that helps control traffic flow throughout the city.",
+              "Group photo of our class in the control room.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=mmda disaster response team",
+            url: "/images/d56.jpg?height=600&width=800&query=mmda disaster response team",
             description:
-              "The disaster response team at MMDA, equipped with specialized vehicles and equipment for emergency situations.",
+              "Watching the live demo of MMDA's CCTV monitoring system, where we learned how traffic and security are managed in real-time.",
           },
         ],
       },
@@ -410,48 +353,48 @@ export const blogData = [
       "Bell Church",
       "Philippine Military Academy (PMA)",
       "The Mansion",
-      "Baguio Night Market",
+      "Mines View Park",
     ],
     locationDetails: [
       {
         name: "Strawberry Farm",
         content:
-          "Our first stop in Baguio City was the famous La Trinidad Strawberry Farm, where we learned about the agricultural practices that have made this region known for its strawberry production. The cool climate of the Cordillera region creates ideal conditions for growing strawberries, which are not commonly cultivated in other parts of the tropical Philippines. We were given a tour of the farm by local farmers who explained the entire growing process, from planting to harvesting. The farm uses a combination of traditional farming methods and modern agricultural technology to maximize yield while maintaining quality. We had the opportunity to try our hand at strawberry picking, carefully selecting ripe berries under the guidance of experienced farmers. The farm also showcases other highland vegetables grown in the region. This visit provided insights into how geography and climate influence agricultural practices and how farming communities adapt their techniques to specific environmental conditions.",
+          "Our first stop in Baguio City was the famous La Trinidad Strawberry Farm, where we stopped to take pictures and buy some affordable pasalubong (souvenirs). While we didn’t receive a detailed tour, the farm’s charming strawberry fields offered great photo opportunities, and the strawberries were incredibly cheap, making it the perfect place to pick up some sweet treats to bring home.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=la trinidad strawberry farm baguio",
+            url: "/images/d61.jpg?height=600&width=800&query=la trinidad strawberry farm baguio",
             description:
-              "The expansive strawberry fields at La Trinidad, with rows of plants bearing bright red fruits.",
+              "Standing in front of the scenic La Trinidad Strawberry Farm, taking in the cool Baguio breeze and beautiful landscape",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=strawberry picking baguio philippines",
-            description: "Our group enjoying the hands-on experience of picking fresh strawberries at the farm.",
+            url: "/images/d62.jpg?height=600&width=800&query=strawberry picking baguio philippines",
+            description: "La Trinidad Strawberry Farm.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=strawberry products baguio",
+            url: "/images/d63.jpg?height=600&width=800&query=strawberry products baguio",
             description:
-              "Various strawberry products made from the farm's harvest, including jams, preserves, and fresh strawberry taho.",
+              "A display of affordable local products like Romana Peanut Brittle, Bee Jam, and Good Shepherd Ube Jam, available for purchase at La Trinidad Strawberry Farm.",
           },
         ],
       },
       {
         name: "Bell Church",
         content:
-          "Our next destination was the Bell Church, a Chinese temple that represents the cultural diversity of Baguio City. This colorful temple complex features traditional Chinese architecture with its distinctive curved roofs, ornate dragon carvings, and vibrant red and gold decorations. Our guide explained the history of the Chinese community in Baguio and how they have maintained their cultural traditions while integrating into the local society. We learned about the religious practices observed at the temple, which blend elements of Buddhism, Taoism, and Confucianism. The peaceful gardens surrounding the temple provided a serene atmosphere for reflection. The Bell Church stands as a testament to the multicultural fabric of Philippine society, where various cultural influences coexist and enrich the national identity. This visit helped us appreciate the importance of cultural preservation and religious tolerance in building harmonious communities.",
+          "We visited the Bell Church, a Chinese temple in Baguio, where we climbed to the top for a photo with the iconic bell. The temple, with its traditional Chinese architecture and vibrant colors, offered a beautiful backdrop. Although we didn’t delve deeply into its religious practices, the visit was a fun opportunity to capture the view and enjoy the peaceful surroundings.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=bell church baguio entrance",
+            url: "/images/d64.jpg?height=600&width=800&query=bell church baguio entrance",
             description:
-              "The ornate entrance gate to Bell Church, featuring traditional Chinese architectural elements.",
+              "The ornate entrance gate to Bell Church, featuring its iconic dragon decorations and traditional Chinese architectural elements.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=bell church baguio temple",
-            description: "The main temple building with its distinctive curved roof and colorful decorations.",
+            url: "/images/d65.jpg?height=600&width=800&query=bell church baguio temple",
+            description: "At the Bell Church, with a beautiful view of Baguio City in the background, enjoying the serene surroundings and capturing the moment together.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=bell church baguio gardens",
+            url: "/images/d66.jpg?height=600&width=800&query=bell church baguio gardens",
             description:
-              "The peaceful gardens within the Bell Church complex, featuring statues and ornamental plants.",
+              "A group photo taken at the Bell Church, standing in front of the large bell.",
           },
         ],
       },
@@ -461,60 +404,60 @@ export const blogData = [
           "In the afternoon, we visited the Philippine Military Academy (PMA), the premier military training institution in the country. The academy is known for its rigorous training program that prepares cadets for leadership roles in the Armed Forces of the Philippines. We were given a guided tour of the campus, which features well-maintained grounds, historic buildings, and modern training facilities. We observed cadets performing their daily routines and military drills, demonstrating the discipline and precision that the academy instills. The museum on campus houses artifacts and exhibits that chronicle the history of the PMA and the contributions of its alumni to national defense and security. We also learned about the academy's adoption of technology in military education, including simulation systems for tactical training and digital platforms for academic courses. The visit provided insights into how the military prepares its future leaders and the balance between traditional military values and modern warfare techniques.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=philippine military academy parade ground",
-            description: "The main parade ground at PMA where cadets perform drills and ceremonial formations.",
+            url: "/images/d67.jpg?height=600&width=800&query=philippine military academy parade ground",
+            description: "Standing in front of the iconic Melchor Hall at the Philippine Military Academy (PMA) in Baguio.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=pma cadets formation",
-            description: "PMA cadets demonstrating precision marching and formation during our visit.",
+            url: "/images/d68.jpg?height=600&width=800&query=pma cadets formation",
+            description: "Walking past the military jet on display at the Philippine Military Academy in Baguio, enjoying the sunny day and rich history surrounding the academy.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=pma museum baguio",
+            url: "/images/d69.jpg?height=600&width=800&query=pma museum baguio",
             description:
-              "The PMA Museum showcasing the rich history and traditions of the academy and its distinguished alumni.",
+              "Capturing a moment of camaraderie and pride at the historic academy.",
           },
         ],
       },
       {
         name: "The Mansion",
         content:
-          "We then visited The Mansion, the official summer residence of the Philippine President. This stately building, with its white facade and expansive grounds, is one of Baguio's most iconic landmarks. Although the main building is not open to the public, we were able to admire its impressive architecture from the gates and explore the beautifully landscaped gardens. Our guide shared the history of The Mansion, which dates back to the American colonial period when Baguio was developed as a hill station. We learned about the various presidents who have stayed here and significant events that have taken place at this historic residence. The Mansion symbolizes the political importance of Baguio City and its special place in Philippine governance. The well-preserved state of this heritage building reflects the value placed on maintaining historical structures that represent important aspects of national identity and governance.",
+          "We then visited The Mansion, the official summer residence of the Philippine President. Our guide clarified that the mansion we were viewing is actually a museum, while the real residence is located on the other side, where presidents go for rest or vacation. We were not allowed to go near the actual mansion during our visit. Nevertheless, we were able to admire its impressive architecture from the gates and explore the beautifully landscaped gardens. Our guide also shared the history of The Mansion, dating back to the American colonial period when Baguio was developed as a hill station. We learned about the various presidents who have stayed here and significant events that have taken place at this historic residence.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=the mansion baguio facade",
+            url: "/images/d610.jpg?height=600&width=800&query=the mansion baguio facade",
             description:
               "The impressive white facade of The Mansion, the official summer residence of the Philippine President.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=mansion gates baguio",
+            url: "/images/d611.jpg?height=600&width=800&query=the mansion baguio facade",
             description:
-              "The ornate main gate of The Mansion, featuring intricate ironwork and design elements from the American colonial period.",
+              "The image shows a historical marker for the Mansion House in Baguio.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=mansion gardens baguio",
+            url: "/images/d612.jpg?height=600&width=800&query=mansion gates baguio",
             description:
-              "The meticulously maintained gardens surrounding The Mansion, featuring colorful flower beds and manicured lawns.",
+              "A group photo taken in front of The Mansion in Baguio.",
           },
         ],
       },
       {
-        name: "Baguio Night Market",
+        name: "Mines View Park",
         content:
-          "We concluded our day at the famous Baguio Night Market, a vibrant showcase of local commerce and culture. Every evening, a section of Harrison Road transforms into a bustling marketplace where vendors sell a wide variety of goods, from clothing and accessories to souvenirs and local crafts. The market is particularly known for its 'ukay-ukay' or secondhand clothing sections, where visitors can find unique fashion items at bargain prices. We explored the food stalls offering local delicacies and street food, experiencing the flavors of Cordilleran cuisine. The night market provided us with insights into the informal economy that supports many local families and the entrepreneurial spirit of the Baguio community. It also serves as a social space where locals and tourists interact, creating a dynamic atmosphere that reflects the city's character. This experience showed us how traditional market cultures adapt to contemporary urban settings while maintaining their essential role in community life.",
+          "Mines View Park, one of Baguio's most popular tourist spots, offering breathtaking panoramic views of the Cordillera mountains and the picturesque mining town below. The cool, crisp air and the lush green surroundings make it an ideal spot for photos and relaxation. We explored the park's souvenir stalls, where we found a variety of locally-made handicrafts, such as woven products, jewelry, and native wood crafts. Visitors can also enjoy wearing traditional Igorot attire for fun photo opportunities.",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=baguio night market overview",
-            description: "The bustling Baguio Night Market with its rows of stalls illuminated in the evening.",
+            url: "/images/d613.jpg?height=600&width=800&query=baguio night market overview",
+            description: "Mines View Park, with scenic mountain views in the background.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=ukay ukay stalls baguio",
+            url: "/images/d614.jpg?height=600&width=800&query=ukay ukay stalls baguio",
             description:
-              "The popular 'ukay-ukay' section of the night market where vendors sell secondhand clothing and accessories.",
+              "I am dressed in traditional Ifugao attire, including a colorful striped blanket and feathered headgear.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=baguio street food market",
+            url: "/images/d615.jpg?height=600&width=800&query=baguio street food market",
             description:
-              "Food stalls at the night market offering a variety of local delicacies and street food specialties.",
+              "Our group photo wearing traditional Ifugao attire, with a scenic view of Baguio's mountains in the background, capturing the local culture at Mines View Park.",
           },
         ],
       },
@@ -534,22 +477,22 @@ export const blogData = [
       {
         name: "Burnham Park",
         content:
-          "We started our day at Burnham Park, the green heart of Baguio City named after the American architect who designed the city's original layout. This expansive urban park features a man-made lake where we enjoyed boating, one of the park's most popular activities. The well-maintained gardens with their colorful flower beds reflect Baguio's reputation as the 'City of Flowers.' We explored various sections of the park, including the Rose Garden, the Orchidarium, and the Igorot Garden which celebrates the indigenous culture of the Cordillera region. The park also houses recreational facilities like bicycle lanes, a children's playground, and an athletic oval where we observed locals engaged in their morning exercises. Burnham Park serves as a community space that brings together people from all walks of life, demonstrating the importance of public green spaces in urban planning and community well-being.",
+          "Our final hours in our  Baguio adventure was filled with fun memories, and one of the highlights was our visit to Burnham Park. While we didn’t explore all the park’s attractions, we had a great time riding carts and rowing a swan boat on the peaceful lake. It was the perfect way to enjoy the cool breeze and take in the beautiful scenery. This was our first time in Baguio, but definitely not our last. Enjoying my time with my friends and classmates in Baguio made this trip even more memorable. From the laughs to the shared experiences, every moment was filled with joy and camaraderie. It’s these fun memories that I’ll cherish forever. Baguio, you were the perfect place to bond and create lasting friendships. The fun moments and the unique charm of the city will always be remembered. Baguio, we’ll be back for more unforgettable experiences!",
         images: [
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=burnham park lake baguio",
+            url: "/images/d616.jpg?height=600&width=800&query=burnham park lake baguio",
             description:
-              "The scenic lake at the center of Burnham Park where visitors can rent boats for a relaxing ride.",
+              "Cruising around Burnham Park on a pedal cart for a fun and breezy ride.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=burnham park gardens baguio",
+            url: "/images/d617.jpg?height=600&width=800&query=burnham park gardens baguio",
             description:
-              "The beautifully maintained flower gardens that add vibrant colors to Burnham Park's landscape.",
+              "Enjoying a serene boating experience at Burnham Park's swan boats with friends.",
           },
           {
-            url: "/images/placeholder.svg?height=600&width=800&query=igorot garden burnham park",
+            url: "/images/d618.jpg?height=600&width=800&query=igorot garden burnham park",
             description:
-              "The Igorot Garden section of Burnham Park, showcasing elements of the indigenous culture of the Cordillera region.",
+              "One Last Selfie at Burnham Park before heading back home.",
           },
         ],
       },
@@ -564,70 +507,28 @@ export const blogData = [
     coverImage: "/images/intro8.jpg?height=300&width=500",
     content:
       "Our eighth and final day was dedicated to our return journey to Zamboanga City, reflecting on our experiences and the knowledge gained throughout the educational tour.",
-    locations: ["NAIA Terminal 1", "Farewell Gathering", "Flight Home"],
+    locations: ["NAIA Terminal 1"],
     locationDetails: [
       {
         name: "NAIA Terminal 1",
         content:
-          "Our final day began with an early morning departure from Baguio City for our journey back to Manila. Upon arriving at Ninoy Aquino International Airport (NAIA) Terminal 1, we had some time before our flight to Zamboanga City. The terminal, one of the oldest in the NAIA complex, has been renovated to improve passenger facilities while maintaining elements of its original design. We observed the airport operations, from check-in procedures to security protocols, gaining insights into the management of a major international gateway. The airport staff explained how they handle the flow of thousands of passengers daily and the technologies they employ to ensure efficient operations. This visit complemented our earlier experiences by showing us another crucial aspect of national infrastructure – air transportation – which connects the Philippine archipelago and links the country to the global community.",
+          "As our journey came to a close, we made our way from Quezon to NAIA Terminal 1 and Terminal 3, reflecting on the eight remarkable days spent exploring Manila, Quezon City, Subic, and Baguio. Each city had its own unique character, from the bustling streets of Quezon to the historical landmarks in Manila, the thriving commerce of Subic, and the cool, scenic beauty of Baguio. These places didn’t just provide us with knowledge, but also the opportunity to connect, bond, and create memories that we’ll carry for a lifetime. The once lively dorm where we stayed slowly grew quiet as each group prepared for their departure back to Zamboanga. The laughter, chatter, and shared excitement began to fade as the silence crept in, marking the end of this unforgettable adventure. " +
+          "It felt surreal to realize that the fun, the late night talks, and the shared moments of learning and growth especially those spent in Room No. 5 were coming to a close. Yet, as each batch left for their flights, there was an undeniable sense of gratitude for the experience we had shared together. We not only learned about different industries, cultures, and histories, but also about each other, strengthening friendships and building connections that transcended the places we visited. Though we were headed back to our respective homes, we knew that the memories, lessons, and bonds formed during this trip, particularly the ones we shared in Room No. 5, would stay with us forever. " +
+          "This journey was more than just an educational trip it was an adventure that brought us closer, shaped our perspectives, and gave us stories to tell for years to come. Even as the dorm became quieter, the memories we made, especially those from Room No. 5, would continue to echo, reminding us that this adventure was just the beginning of many more to come.",
         images: [
           {
-            url: "/placeholder.svg?height=600&width=800&query=naia terminal 1 exterior",
-            description: "The exterior of NAIA Terminal 1, our departure point for the flight back to Zamboanga City.",
+            url: "/images/d81.jpg?height=600&width=800&query=naia terminal 1 exterior",
+            description: "One last photo in Room No. 5",
           },
           {
-            url: "/placeholder.svg?height=600&width=800&query=airport check in counters manila",
+            url: "/images/d82.jpg?height=600&width=800&query=airport check in counters manila",
             description:
-              "The check-in area at NAIA Terminal 1, where we processed our boarding passes for the return flight.",
+              "On our way to the airport, leaving Quezon City, the final stretch of our unforgettable journey.",
           },
           {
-            url: "/placeholder.svg?height=600&width=800&query=airport departure lounge philippines",
+            url: "/images/d83.jpg?height=600&width=800&query=airport departure lounge philippines",
             description:
-              "The departure lounge where we waited for our flight, reflecting on our educational tour experiences.",
-          },
-        ],
-      },
-      {
-        name: "Farewell Gathering",
-        content:
-          "Before boarding our flight, we held a small farewell gathering in a corner of the airport lounge. Our tour coordinator facilitated a reflection session where each of us shared our most significant learnings and memorable moments from the eight-day educational tour. Many highlighted the value of seeing firsthand how theoretical concepts from our IT courses are applied in real-world settings across different industries and institutions. Others emphasized the cultural insights gained and the importance of understanding the historical and social context in which technology operates. Our professors provided closing remarks, encouraging us to apply the knowledge and perspectives gained during the tour in our future academic work and professional careers. This reflective session helped consolidate our experiences and articulate the educational outcomes of the tour.",
-        images: [
-          {
-            url: "/placeholder.svg?height=600&width=800&query=student group discussion airport",
-            description:
-              "Our group gathered in the airport lounge for a final reflection session on our educational tour experiences.",
-          },
-          {
-            url: "/placeholder.svg?height=600&width=800&query=students sharing experiences",
-            description:
-              "Students taking turns sharing their most valuable insights and memorable moments from the tour.",
-          },
-          {
-            url: "/placeholder.svg?height=600&width=800&query=professor giving closing remarks",
-            description:
-              "Our professor giving closing remarks and summarizing the educational objectives achieved during the tour.",
-          },
-        ],
-      },
-      {
-        name: "Flight Home",
-        content:
-          "Our flight back to Zamboanga City marked the official conclusion of our educational tour. As we soared above the Philippine archipelago, many of us took the opportunity to organize our notes, photographs, and materials collected throughout the tour in preparation for our post-tour academic requirements. The aerial view of the islands below provided a fitting perspective on our journey, reminding us of the diverse landscapes, cultures, and communities we had encountered. Conversations during the flight centered around how we would apply our new knowledge in our final year projects and future careers in the IT industry. There was also discussion about sharing our experiences with junior students who would undertake similar educational tours in the future. As we began our descent into Zamboanga City, there was a sense of accomplishment and gratitude for the comprehensive learning experience that had broadened our understanding of how information technology contributes to various sectors of Philippine society and economy.",
-        images: [
-          {
-            url: "/placeholder.svg?height=600&width=800&query=airplane window view philippines",
-            description:
-              "The view from our airplane window as we flew over the Philippine archipelago on our way home.",
-          },
-          {
-            url: "/placeholder.svg?height=600&width=800&query=students working on laptops airplane",
-            description:
-              "Students using the flight time to organize their notes and digital materials collected during the tour.",
-          },
-          {
-            url: "/placeholder.svg?height=600&width=800&query=zamboanga city aerial view",
-            description:
-              "Aerial view of Zamboanga City as our plane prepared for landing, marking our return home after the educational tour.",
+              "The end",
           },
         ],
       },
