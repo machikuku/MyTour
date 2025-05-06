@@ -11,6 +11,8 @@
   background-color: var(--bg-primary);
   margin-top: 0;
   padding-top: 0;
+  /* Add a background color that matches the first slide to improve perceived performance */
+  background-color: #1a202c;
 }
 
 /* Slideshow */
@@ -21,6 +23,9 @@
   width: 100%;
   height: 100%;
   z-index: 1;
+  /* Add a subtle background pattern while images load */
+  background-image: radial-gradient(circle at 25px 25px, rgba(66, 213, 195, 0.05) 2%, transparent 0%);
+  background-size: 50px 50px;
 }
 
 .hero-slide {
@@ -34,6 +39,11 @@
   opacity: 0;
   transition: opacity 1.5s ease;
   z-index: 1;
+  /* Add contain to prevent layout shifts */
+  contain: layout paint;
+  /* Add hardware acceleration for smoother transitions */
+  transform: translateZ(0);
+  backface-visibility: hidden;
 }
 
 .hero-slide.active {
@@ -69,6 +79,8 @@
     rgba(26, 32, 44, 0) 100%
   );
   z-index: 2;
+  /* Add hardware acceleration for smoother rendering */
+  transform: translateZ(0);
 }
 
 /* Main content container */
@@ -127,6 +139,8 @@
   text-shadow: 0 0 15px rgba(0, 0, 0, 0.766);
   /* Animation for both lines */
   animation: slide-from-left 1.8s ease-out forwards;
+  /* Add hardware acceleration */
+  transform: translateZ(0);
 }
 
 .hero-title-line {
@@ -204,6 +218,8 @@
   margin: 0; /* Removed negative margins to prevent overlap */
   z-index: 1;
   opacity: 0.7;
+  /* Add hardware acceleration for smoother hover effects */
+  transform: translateZ(0);
 }
 
 .hero-thumbnail:hover {
@@ -225,6 +241,8 @@
   height: 100%;
   object-fit: cover;
   transition: transform 0.5s ease;
+  /* Add hardware acceleration */
+  transform: translateZ(0);
 }
 
 .hero-thumbnail:hover img {
